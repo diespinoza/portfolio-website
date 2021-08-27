@@ -2125,7 +2125,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 4em 0;
 			width: 100%;
 		}
 
@@ -2257,6 +2257,7 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+        /*class .special is not being used */
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -2270,6 +2271,7 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+        /*class stacked is not being used */
 		ul.actions.stacked {
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
