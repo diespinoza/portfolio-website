@@ -2595,9 +2595,9 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll,								scroll;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-  background-position: top left,							top left;
-  background-repeat: repeat,								no-repeat;
+  background-image: url("images/overlay.png"), url("../../images/background.jpg");
+  background-position: top left, top left;
+  background-repeat: repeat, repeat;
   background-size: auto,								150%;
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
@@ -3080,9 +3080,9 @@ body.is-touch .poptrox-popup .closer {
   #footer {
     background-attachment: scroll;
     background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-    background-position: top left,						bottom center;
-    background-repeat: repeat,							no-repeat;
+    background-image: url("images/overlay.png"), url("../../images/background.jpg");
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
     background-size: auto,							cover;
     bottom: auto;
     left: auto;

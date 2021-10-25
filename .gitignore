@@ -1,4 +1,6 @@
 # gitinfore file
 # Ignore images to reduce file size
-images/**/*.jpg
-images/**/*.png
+images/thumbs/*.jpg
+images/fulls/*.jpg
+images/thumbs/*.png
+images/fulls/*.png
