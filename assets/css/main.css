@@ -98,7 +98,8 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 body, input, select, textarea {
-  color: #a2a2a2;
+  /* color: #a2a2a2; */
+  color: #111312;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -117,9 +118,20 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #E1B574 !important;
+  /* color: #5cc6a7 !important; */
+  /* color: #49bf9d !important; */
   text-decoration: none;
 }
+
+/* Rule to differentiate from the icon links */
+a.icon:hover {
+  /* border-bottom-color: transparent; */
+  /* color: #49bf9d !important; */
+  color: #F2DBB6 !important;
+  /* text-decoration: none; */
+}
+
 
 strong, b {
   color: #787878;
@@ -135,7 +147,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #787878;
+  /* color: #787878; */
+  color: #0A0C07;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -2447,8 +2460,9 @@ input[type="button"],
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #efefef;
-  color: #787878 !important;
+  border: solid 3px #111312;
+  /* color: #787878 !important; */
+  color: #111312 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2466,8 +2480,9 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  /* border-color: #49bf9d; */
+  border-color: #E1B574;
+  color: #E1B574 !important;
 }
 
 input[type="submit"]:active,
@@ -2626,7 +2641,8 @@ input[type="button"]:disabled,
 }
 
 #header strong, #header b {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #F2DBB6;
 }
 
 #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2634,7 +2650,8 @@ input[type="button"]:disabled,
 }
 
 #header h1 {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #F2DBB6;
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
