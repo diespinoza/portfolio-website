@@ -112,12 +112,14 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  /* color: #49bf9d; */
+  color: #E1B574;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
+  /* color: #CF8C5D !important; */
   color: #E1B574 !important;
   /* color: #5cc6a7 !important; */
   /* color: #49bf9d !important; */
@@ -1854,7 +1856,8 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #49bf9d;
+  border-color: #E1B574;
+  /* border-color: #49bf9d; */
 }
 
 select {
@@ -2084,9 +2087,11 @@ input[type="radio"] + label:before {
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   border-radius: 0.35em;
-  border: solid 3px rgba(255, 255, 255, 0.5);
-  color: #fff;
-  content: 'View';
+  border: solid 3px rgba(242, 219, 182, 0.5);
+  color: #F2DBB6;
+  /* border: solid 3px rgba(255, 255, 255, 0.5); */
+  /* color: #fff; */
+  content: 'Visit';
   display: inline-block;
   font-size: 0.8em;
   font-weight: 400;
@@ -2489,9 +2494,13 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-  background-color: rgba(73, 191, 157, 0.1);
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  background-color: rgba(225, 181, 116, 0.4);
+  border-color: #E1B574;
+  color: #E1B574 !important;
+
+  /* background-color: rgba(73, 191, 157, 0.1); */
+  /* border-color: #49bf9d; */
+  /* color: #49bf9d !important; */
 }
 
 input[type="submit"].icon,
@@ -2609,11 +2618,11 @@ input[type="button"]:disabled,
   -ms-justify-content: space-between;
   justify-content: space-between;
   background-color: #1f1815;
-  background-attachment: scroll,								scroll;
+  background-attachment: scroll, scroll;
   background-image: url("images/overlay.png"), url("../../images/background.jpg");
   background-position: top left, top left;
   background-repeat: repeat, repeat;
-  background-size: auto,								150%;
+  background-size: auto,150%;
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
@@ -3100,7 +3109,7 @@ body.is-touch .poptrox-popup .closer {
     background-image: url("images/overlay.png"), url("../../images/background.jpg");
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
-    background-size: auto,							cover;
+    background-size: auto, cover;
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;
